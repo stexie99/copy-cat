@@ -1,0 +1,52 @@
+body{
+    background-color:#FFFFFF;
+    overflow:hidden;
+}
+footer{
+    color:rgb(115, 115, 115);
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+
+}
+#logo{
+    width:175px;
+}
+button{
+    background-color: #4BB4F8;
+    color: #FFFFFF;
+    border-radius: 10%;
+    width: 100px;
+}
+.info{
+    text-align:center;
+    width:50%;
+
+}
+main{
+    display:flex;
+}
+#google{
+    height:40px;
+}
+#microsoft{
+    height:40px;
+}
+.container{
+    justify-content:center;
+    margin: 25%;
+    margin-top:36px;
+}
+#page{
+    position: absolute;
+    bottom: 333px;
+    left: 637px;
+    z-index: 10;
+}
+#phones{
+    z-index:1;
+}

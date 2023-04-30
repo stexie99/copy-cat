@@ -5,61 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram </title>
+    <link rel="stylesheet" href="./assets/style.css" type="text/css">
 </head>
 <body>
+<div class="container">
     <main>
-        <img src="./assets/images/home-phones.png" alt="image of phones"/>
-        <img src="./assets/images/instagram-page.png" alt="the instagram page of a user"/>
-        <form>
-            <fieldset>
-                <img src="./assets/images/Instagram_logo.svg.png" alt="instagram logo"/>
-                <span>
-                    <label for="login"></label>
-                    <input type="text"
-                    placeholder="Phone number, username, or email"
-                    minlength="2"
-                    id="login"
-                    name="login"
-                    required/><br>
-                </span>
-                <span>
-                    <label for="password"></label>
-                    <input type="text"
-                    placeholder="Password"
-                    minlength="2"
-                    id="password"
-                    name="password"
-                    required/>
-                </span>
-                <div>
-                    <a>Log in with Facebook</a><br>
-                    <a>Forgot passowrd?</a>
-                </div>
-            </fieldset>
-        </form>
-        <fieldset><p>Don't have an account? <a>Sign up</a></p></fieldset>
-        <p>Get the app.</p>
-        <img src="assets/images/googleplay.png" alt="googleplay"/>
-        <img src="./assets/images/Microsoft.png" alt="microsfot"/>
-
+        <div>
+            <img src="./assets/images/home-phones.png" alt="image of phones" id="phones"/>
+            <img src="./assets/images/instagram-page.png" alt="the instagram page of a user" id="page"/>
+        </div>
+        <div class="info">
+            <form>
+                <fieldset>
+                    <img src="./assets/images/Instagram_logo.svg.png" alt="instagram logo" id="logo"/><br>
+                    <span>
+                        <label for="login"></label>
+                        <input type="text"
+                            placeholder="Phone number, username, or email"
+                            minlength="2"
+                            id="login"
+                            name="login"
+                            required/><br>
+                    </span>
+                    <span>
+                        <label for="password"></label>
+                        <input type="text"
+                            placeholder="Password"
+                            minlength="2"
+                            id="password"
+                            name="password"
+                            required/>
+                        </span><br>
+                    <button>Log in</button>
+                    <div>
+                        <a>Log in with Facebook</a><br>
+                        <a>Forgot password?</a>
+                    </div>
+                </fieldset>
+            </form>
+            <fieldset class="sign-up"><p>Don't have an account? <a>Sign up</a></p></fieldset>
+            <p>Get the app.</p>
+            <img src="assets/images/googleplay.png" alt="googleplay" id="google"/>
+            <img src="./assets/images/Microsoft.png" alt="microsoft" id="microsoft"/> 
+        </div>
     </main>
     <footer>
         <ul>
-            <li>Meta</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Jobs</li>
-            <li>Help</li>
-            <li>privacy</li>
-            <li>Terms</li>
-            <li>Top Accounts</li>
-            <li>Locations</li>
-            <li>Instagram Lite</li>
-            <li>Contact Uploading & Non-User</li>
-            <li>Meta Verified</li>
+            <li><a>Meta</a></li>
+            <li><a>About</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Jobs</a></li>
+            <li><a>Help</a></li>
+            <li><a>privacy</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Top Accounts</a></li>
+            <li><a>Locations</a></li>
+            <li><a>Instagram Lite</a></li>
+            <li><a>Contact Uploading & Non-User</a></li>
+            <li><a>Meta Verified</a></li>
         </ul>
+        <select name="language" placeholder="English">
+            <option value="en">English</option>
+            <option value="cn">中文</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+        </select>
+        <p>© 2023 Instagram from Meta</p>
     </footer>
-
-
+</div>
 </body>
 </html>
