@@ -1,6 +1,7 @@
 body{
     background-color:#FFFFFF;
     overflow:hidden;
+    font-family: sans-serif;
 }
 footer{
     color:rgb(115, 115, 115);
@@ -19,16 +20,19 @@ footer ul{
 button{
     background-color: #4BB4F8;
     color: #FFFFFF;
-    border-radius: 10%;
-    width: 100px;
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+
 }
 .info{
     text-align:center;
-    width:50%;
+    width:40%;
 
 }
 main{
     display:flex;
+    justify-content: center;
 }
 #google{
     height:40px;
@@ -37,19 +41,10 @@ main{
     height:40px;
 }
 .container{
-    justify-content:center;
     margin: 25%;
     margin-top:36px;
 }
-/* #page{
-    position: absolute;
-    bottom: 333px;
-    left: 637px;
-    z-index: 10;
-}
-#phones{
-    z-index:1;
-} */
+
 .instagram-demo{
     position:relative;
 }
@@ -63,3 +58,14 @@ main{
     left: 154px;
     top: 27px;
 } 
+#login, #password{
+    width:300px;
+    height:35px;
+}
+.fb-login{
+    font-weight:1000;
+    color:#375185;
+}
+#facebook{
+    height:30px;
+}
