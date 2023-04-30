@@ -11,7 +11,7 @@ footer ul{
     display:flex;
     justify-content: space-between;
     text-align:center;
-
+    font-size:15px;
 }
 #logo{
     width:175px;
@@ -41,7 +41,7 @@ main{
     margin: 25%;
     margin-top:36px;
 }
-#page{
+/* #page{
     position: absolute;
     bottom: 333px;
     left: 637px;
@@ -49,4 +49,17 @@ main{
 }
 #phones{
     z-index:1;
+} */
+.instagram-demo{
+    position:relative;
 }
+.instagram-demo img:first-child {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.instagram-demo img:last-child {
+    position: absolute;
+    left: 154px;
+    top: 27px;
+} 
