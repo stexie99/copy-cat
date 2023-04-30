@@ -2,6 +2,7 @@ body{
     background-color:#FFFFFF;
     overflow:hidden;
     font-family: sans-serif;
+    font-size:15px;
 }
 footer{
     color:rgb(115, 115, 115);
@@ -12,7 +13,12 @@ footer ul{
     display:flex;
     justify-content: space-between;
     text-align:center;
-    font-size:15px;
+    font-size:13px;
+    font-weight: 400;
+}
+footer ul li a{
+    text-decoration: none;
+    color:rgb(115, 115, 115);
 }
 #logo{
     width:175px;
@@ -28,7 +34,6 @@ button{
 .info{
     text-align:center;
     width:40%;
-
 }
 main{
     display:flex;
@@ -61,11 +66,52 @@ main{
 #login, #password{
     width:300px;
     height:35px;
+    background-color:#FAFAFA;
+    border:1px solid #b3bcc9;
 }
 .fb-login{
-    font-weight:1000;
+    font-weight:700;
     color:#375185;
+    font-size:14px;
+    top:4px;
+    text-decoration:none;
 }
 #facebook{
-    height:30px;
+    height: 20px;
+    position: relative;
+    top:4px;
+}
+.forgot-pw{
+    font-size: 12px;
+    text-decoration: none;
+    color:#1F376B;
+}
+#logo{
+    padding:2em;
+}
+.sign-up{
+    color:#4BB4F8;
+    text-decoration:none;
+    font-weight:500;
+}
+.usernamepassword{
+    background-color:#FAFAFA;
+}
+.last{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: baseline;
+    font-size:13px;
+}
+select{
+    height:20px;
+    border:0px;
+    color:rgb(115, 115, 115);
+}
+h4{
+    font-weight:100;
+}
+fieldset{
+    border:1px solid #b3bcc9;
 }
